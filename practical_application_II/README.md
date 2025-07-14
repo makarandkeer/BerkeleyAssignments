@@ -32,4 +32,4 @@ The RMSE values for our models were:
 
 All three models yielded very similar performance in terms of RMSE. Ridge Regression exhibited a marginally lower RMSE, suggesting it might be slightly more robust for predicting used car prices based on the chosen features in this dataset. However, the differences are negligible, indicating that for these two features, the regularization in Ridge and LASSO did not significantly alter the prediction accuracy compared to standard Linear Regression
 
-4. Jupyter Notebook:  practical_application_II.ipynb
+4. Jupyter Notebook:  practical_application_II.ipynb (https://github.com/makarandkeer/BerkeleyAssignments/blob/main/practical_application_II/practical_application_II.ipynb)
