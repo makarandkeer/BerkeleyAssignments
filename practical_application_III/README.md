@@ -40,6 +40,15 @@ The dataset comes from the UCI Machine Learning repository and contains data fro
 
 ## Data Preprocessing
 
+### Data analysis using charts
+#### Age vs. campaign success (y) 
+- Most of the campaign succuess is around age group of 25-35 years
+![Age vs. Campaign Success](images/age_vs_campaign_success.png)
+
+#### Campaigns per month
+- Month of May and Jun shows better chances of winning the campaign
+![Campaigns per Month](images/campaigns_per_month.png)
+
 ### Feature Engineering
 1. **Categorical Encoding**: 
    - Education levels converted to numeric years (0-20)
@@ -150,8 +159,6 @@ The dataset comes from the UCI Machine Learning repository and contains data fro
 | LogisticRegression      | 0.9106              | 0.8006                | 0.6885            | {'C': 0.1, 'max_iter': 5000, 'penalty': 'l1', ...} |
 | KNeighborsClassifier    | 0.9075              | 0.7744                | 0.7253            | {'n_neighbors': 7, 'weights': 'uniform'}     |
 | DecisionTreeClassifier  | 0.9124              | 0.7909                | 0.7345            | {'criterion': 'entropy', 'max_depth': 5, 'min_...} |
-
-
 
 
 
