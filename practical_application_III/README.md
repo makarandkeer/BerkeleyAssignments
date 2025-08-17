@@ -169,3 +169,6 @@ The dataset comes from the UCI Machine Learning repository and contains data fro
 3. **Advanced Preprocessing**: Apply scaling/normalization for better SVM performance
 4. **Business Metrics**: Incorporate cost-benefit analysis for false positives/negatives
 
+Please find link to practical application III file to see steps taken to arrive at the above conclusions.
+
+https://github.com/makarandkeer/BerkeleyAssignments/blob/main/practical_application_III/practical_application_III.ipynb
