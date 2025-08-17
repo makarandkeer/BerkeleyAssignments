@@ -41,8 +41,12 @@ The dataset comes from the UCI Machine Learning repository and contains data fro
 ## Data Preprocessing
 
 ### Data analysis using charts
+#### Histogram : Call duration for campaign success (y)
+
+![Call duration vs campaign success (y)](images/duration_vs_successful_campaigns.png)
+
 #### Age vs. campaign success (y) 
-- Most of the campaign succuess is around age group of 25-35 years
+- Most of the campaign success is around age group of 25-45 years
 ![Age vs. Campaign Success](images/age_vs_campaign_success.png)
 
 #### Campaigns per month
