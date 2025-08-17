@@ -154,13 +154,14 @@ The dataset comes from the UCI Machine Learning repository and contains data fro
 | DecisionTreeClassifier  | 0.102202  | 1.0        | 0.887189  | 0.499485   | 0.522629  |
 | SVC                     | 11.150062 | 0.898327   | 0.895932  | 0.612698   | 0.207974  |
 
-| model                  | accuracy | precision | recall | best_params                                   |
-|------------------------|---------------------|-----------------------|-------------------|-----------------------------------------------|
-| LogisticRegression      | 0.9106              | 0.8006                | 0.6885            | {'C': 0.1, 'max_iter': 5000, 'penalty': 'l1', ...} |
-| KNeighborsClassifier    | 0.9075              | 0.7744                | 0.7253            | {'n_neighbors': 7, 'weights': 'uniform'}     |
-| DecisionTreeClassifier  | 0.9124              | 0.7909                | 0.7345            | {'criterion': 'entropy', 'max_depth': 5, 'min_...} |
+| model                  | accuracy | precision | recall | best_params                                                  |
+|------------------------|-----------------------|------------------------|---------------------|--------------------------------------------------------------|
+| KNeighborsClassifier   | 0.9075                | 0.7744                 | 0.7253              | {"n_neighbors": 7, "weights": "uniform"}                     |
+| DecisionTreeClassifier | 0.9124                | 0.7909                 | 0.7345              | {"criterion": "entropy", "max_depth": 5, "min_...}           |
+| LogisticRegression     | 0.9107                | 0.8012                 | 0.6886              | {"C": 0.1, "max_iter": 5000, "penalty": "l1", ...}           |
+| SVM                    | 0.9003                | 0.7961                 | 0.6013              | {"svc__C": 0.1, "svc__gamma": "scale", "svc__k...}           |
 
-
+### __Among the 4 classifier <u>LogisticRegression</u> has best accuracy with better precision and recall score__
 
 ## Future Improvements
 
