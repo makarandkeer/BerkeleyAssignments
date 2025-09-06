@@ -11,22 +11,25 @@ Why should anyone care about this question?
 How to accurately identify and reduce the most significant risk factors of heart disease in a large, diverse population, using tools like machine learning to enhance prevention and early detection
 
 #### Data Sources
-What data will you use to answer you question?
+https://www.cdc.gov/brfss/annual_data/annual_2022.html
+The dataset originally comes from the CDC and is a major part of the Behavioral Risk Factor Surveillance System (BRFSS), which conducts annual telephone surveys to collect data on the health status of U.S. residents
+
+Kagel Data : https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease
 
 #### Methodology
-What methods are you using to answer the question?
+Applying Classification model such as logistic regression, SVM, random forest, etc.
 
 #### Results
-What did your research find?
+
+- Data is highly imbalance 
 
 #### Next steps
 What suggestions do you have for next steps?
 
 #### Outline of project
 
-- [Link to notebook 1]()
-- [Link to notebook 2]()
-- [Link to notebook 3]()
+- [Link to notebook](https://github.com/makarandkeer/BerkeleyAssignments/blob/develop/capstone/heart_disease_indicators.ipynb)
+
 
 
 ##### Contact and Further Information
